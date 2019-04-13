@@ -203,7 +203,7 @@
 
 			rgCurrentIndex = direction + rgCurrentIndex;
 			if (rgCurrentIndex < 0) {
-				rgCurrentIndex = rgItemsLength - 1;
+				rgCurrentIndex = rgItemsLength - (-rgCurrentIndex);
 			}
 			if (rgCurrentIndex >= rgItemsLength) {
 				rgCurrentIndex = 0;
